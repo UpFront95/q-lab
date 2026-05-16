@@ -13,7 +13,6 @@ venv/
 # uv / poetry
 .python-version
 poetry.lock
-uv.lock
 
 # Database
 *.db
