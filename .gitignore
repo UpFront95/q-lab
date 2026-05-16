@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+.env
+
+# uv / poetry
+.python-version
+poetry.lock
+uv.lock
+
+# Database
+*.db
+*.sqlite3
+
+# Secrets / credentials
+.env.local
+qiskit_account.json
+
+# Generated artifacts
+experiments/
+data/generated/
+*.svg
+*.png
+*.pdf
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
